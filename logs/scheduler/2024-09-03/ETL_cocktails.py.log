@@ -475,3 +475,374 @@ airflow.exceptions.DuplicateTaskIdFound: Task id 'obtencion-operator' has alread
 [2024-09-03T19:26:24.489+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:26:24.488+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-09-03T19:26:24.508+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:26:24.508+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
 [2024-09-03T19:26:24.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.704 seconds
+[2024-09-03T19:26:54.888+0000] {processor.py:161} INFO - Started process (PID=358) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:26:54.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:26:54.892+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:26:54.891+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:26:55.328+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:26:55.351+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:26:55.350+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:26:55.371+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:26:55.370+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:26:55.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.510 seconds
+[2024-09-03T19:27:25.610+0000] {processor.py:161} INFO - Started process (PID=366) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:27:25.611+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:27:25.614+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:27:25.613+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:27:26.337+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:27:26.367+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:27:26.367+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:27:26.388+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:27:26.387+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:27:26.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.812 seconds
+[2024-09-03T19:27:56.785+0000] {processor.py:161} INFO - Started process (PID=374) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:27:56.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:27:56.789+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:27:56.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:27:57.290+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:27:57.312+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:27:57.311+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:27:57.330+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:27:57.329+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:27:57.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.567 seconds
+[2024-09-03T19:28:28.282+0000] {processor.py:161} INFO - Started process (PID=381) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:28:28.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:28:28.287+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:28:28.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:28:28.838+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:28:28.861+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:28:28.861+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:28:28.881+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:28:28.881+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:28:28.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.629 seconds
+[2024-09-03T19:28:59.179+0000] {processor.py:161} INFO - Started process (PID=389) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:28:59.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:28:59.184+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:28:59.183+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:28:59.620+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:28:59.644+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:28:59.643+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:28:59.660+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:28:59.660+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:28:59.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.507 seconds
+[2024-09-03T19:29:30.704+0000] {processor.py:161} INFO - Started process (PID=397) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:29:30.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:29:30.710+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:29:30.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:29:31.209+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:29:31.232+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:29:31.231+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:29:31.251+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:29:31.250+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:29:31.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.575 seconds
+[2024-09-03T19:30:01.571+0000] {processor.py:161} INFO - Started process (PID=404) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:30:01.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:30:01.575+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:30:01.574+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:30:01.980+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:30:02.006+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:30:02.006+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:30:02.024+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:30:02.024+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:30:02.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.479 seconds
+[2024-09-03T19:30:32.141+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:30:32.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:30:32.145+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:30:32.144+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:30:32.607+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:30:32.628+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:30:32.628+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:30:32.646+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:30:32.646+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:30:32.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.537 seconds
+[2024-09-03T19:31:02.935+0000] {processor.py:161} INFO - Started process (PID=420) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:31:02.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:31:02.940+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:31:02.939+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:31:03.953+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:31:04.027+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:31:04.026+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:31:04.110+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:31:04.109+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:31:04.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 1.233 seconds
+[2024-09-03T19:31:34.387+0000] {processor.py:161} INFO - Started process (PID=428) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:31:34.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:31:34.392+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:31:34.391+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:31:34.913+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:31:34.944+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:31:34.943+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:31:34.967+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:31:34.967+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:31:34.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.611 seconds
+[2024-09-03T19:32:05.242+0000] {processor.py:161} INFO - Started process (PID=436) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:32:05.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:32:05.247+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:32:05.246+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:32:05.806+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:32:05.832+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:32:05.832+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:32:05.854+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:32:05.854+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:32:05.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.642 seconds
+[2024-09-03T19:32:36.082+0000] {processor.py:161} INFO - Started process (PID=444) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:32:36.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:32:36.087+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:32:36.086+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:32:36.585+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:32:36.609+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:32:36.608+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:32:36.627+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:32:36.627+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:32:36.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.572 seconds
+[2024-09-03T19:33:06.849+0000] {processor.py:161} INFO - Started process (PID=452) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:33:06.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:33:06.853+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:33:06.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:33:07.314+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:33:07.336+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:33:07.336+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:33:07.353+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:33:07.353+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:33:07.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.528 seconds
+[2024-09-03T19:33:37.449+0000] {processor.py:161} INFO - Started process (PID=460) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:33:37.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:33:37.457+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:33:37.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:33:37.945+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:33:37.968+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:33:37.968+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:33:37.987+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:33:37.987+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:33:38.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.565 seconds
+[2024-09-03T19:34:08.268+0000] {processor.py:161} INFO - Started process (PID=467) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:34:08.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:34:08.271+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:34:08.271+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:34:11.252+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:34:11.277+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:34:11.277+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:34:11.298+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:34:11.297+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:34:11.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 3.057 seconds
+[2024-09-03T19:34:41.680+0000] {processor.py:161} INFO - Started process (PID=475) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:34:41.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:34:41.686+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:34:41.685+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:34:42.206+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:34:42.245+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:34:42.244+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:34:42.281+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:34:42.281+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:34:42.316+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.643 seconds
+[2024-09-03T19:35:12.680+0000] {processor.py:161} INFO - Started process (PID=483) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:35:12.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:35:12.686+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:35:12.685+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:35:13.099+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:35:13.123+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:35:13.123+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:35:13.146+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:35:13.145+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:35:13.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.486 seconds
+[2024-09-03T19:35:43.379+0000] {processor.py:161} INFO - Started process (PID=496) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:35:43.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:35:43.383+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:35:43.383+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:35:43.794+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:35:43.815+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:35:43.814+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:35:43.832+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:35:43.832+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:35:43.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.480 seconds
+[2024-09-03T19:36:14.110+0000] {processor.py:161} INFO - Started process (PID=504) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:36:14.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:36:14.114+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:36:14.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:36:14.570+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:36:14.598+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:36:14.598+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:36:14.619+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:36:14.619+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:36:14.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.533 seconds
+[2024-09-03T19:36:44.780+0000] {processor.py:161} INFO - Started process (PID=512) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:36:44.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:36:44.784+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:36:44.784+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:36:45.235+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:36:45.258+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:36:45.258+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:36:45.297+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:36:45.297+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:36:45.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.551 seconds
+[2024-09-03T19:37:15.585+0000] {processor.py:161} INFO - Started process (PID=520) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:37:15.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:37:15.590+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:37:15.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:37:16.049+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:37:16.077+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:37:16.076+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:37:16.099+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:37:16.098+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:37:16.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.546 seconds
+[2024-09-03T19:37:46.440+0000] {processor.py:161} INFO - Started process (PID=528) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:37:46.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:37:46.444+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:37:46.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:37:47.001+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:37:47.023+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:37:47.023+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:37:47.043+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:37:47.043+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:37:47.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.730 seconds
+[2024-09-03T19:38:21.825+0000] {processor.py:161} INFO - Started process (PID=536) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:38:21.828+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:38:21.831+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:38:21.831+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:38:22.274+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:38:22.298+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:38:22.297+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:38:22.315+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:38:22.314+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:38:22.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.518 seconds
+[2024-09-03T19:38:52.661+0000] {processor.py:161} INFO - Started process (PID=544) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:38:52.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:38:52.665+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:38:52.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:38:53.165+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:38:53.189+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:38:53.189+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:38:53.207+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:38:53.207+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:38:53.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.576 seconds
+[2024-09-03T19:39:23.790+0000] {processor.py:161} INFO - Started process (PID=552) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:39:23.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:39:23.794+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:39:23.793+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:39:24.223+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:39:24.245+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:39:24.245+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:39:24.263+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:39:24.263+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:39:24.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.497 seconds
+[2024-09-03T19:39:54.964+0000] {processor.py:161} INFO - Started process (PID=561) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:39:54.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:39:54.968+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:39:54.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:39:55.410+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:39:55.435+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:39:55.434+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:39:55.453+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:39:55.453+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:39:55.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.512 seconds
+[2024-09-03T19:40:25.726+0000] {processor.py:161} INFO - Started process (PID=569) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:40:25.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:40:25.730+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:40:25.729+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:40:26.172+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:40:26.198+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:40:26.198+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:40:26.221+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:40:26.220+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:40:26.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.527 seconds
+[2024-09-03T19:40:56.515+0000] {processor.py:161} INFO - Started process (PID=577) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:40:56.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:40:56.519+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:40:56.519+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:40:56.954+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:40:56.977+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:40:56.976+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:40:56.997+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:40:56.997+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:40:57.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.509 seconds
+[2024-09-03T19:41:27.252+0000] {processor.py:161} INFO - Started process (PID=585) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:41:27.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:41:27.256+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:41:27.255+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:41:27.712+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:41:27.737+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:41:27.737+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:41:27.758+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:41:27.758+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:41:27.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.535 seconds
+[2024-09-03T19:41:58.224+0000] {processor.py:161} INFO - Started process (PID=593) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:41:58.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:41:58.228+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:41:58.227+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:41:58.729+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:41:58.755+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:41:58.755+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:41:58.773+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:41:58.773+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:41:58.799+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.581 seconds
+[2024-09-03T19:42:29.009+0000] {processor.py:161} INFO - Started process (PID=601) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:42:29.010+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:42:29.013+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:42:29.013+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:42:29.639+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:42:29.725+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:42:29.725+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:42:29.819+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:42:29.819+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:42:29.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.885 seconds
+[2024-09-03T19:43:00.152+0000] {processor.py:161} INFO - Started process (PID=609) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:43:00.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:43:00.159+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:43:00.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:43:00.884+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:43:00.919+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:43:00.918+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:43:00.941+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:43:00.940+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:43:00.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.822 seconds
+[2024-09-03T19:43:31.124+0000] {processor.py:161} INFO - Started process (PID=617) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:43:31.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:43:31.129+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:43:31.129+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:43:31.968+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:43:31.993+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:43:31.993+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:43:32.012+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:43:32.011+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:43:32.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.917 seconds
+[2024-09-03T19:44:02.299+0000] {processor.py:161} INFO - Started process (PID=625) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:44:02.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:44:02.306+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:44:02.305+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:44:02.784+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:44:02.820+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:44:02.820+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:44:02.850+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:44:02.850+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:44:02.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.597 seconds
+[2024-09-03T19:44:33.640+0000] {processor.py:161} INFO - Started process (PID=633) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:44:33.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:44:33.644+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:44:33.643+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:44:34.075+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:44:34.097+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:44:34.097+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:44:34.114+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:44:34.114+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:44:34.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.496 seconds
+[2024-09-03T19:45:05.159+0000] {processor.py:161} INFO - Started process (PID=641) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:45:05.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:45:05.166+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:45:05.166+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:45:05.600+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:45:05.621+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:45:05.620+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:45:05.634+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:45:05.634+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:45:05.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.506 seconds
+[2024-09-03T19:45:35.878+0000] {processor.py:161} INFO - Started process (PID=649) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:45:35.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:45:35.881+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:45:35.881+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:45:36.342+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:45:36.368+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:45:36.368+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:45:36.388+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:45:36.388+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:45:36.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.537 seconds
+[2024-09-03T19:46:06.578+0000] {processor.py:161} INFO - Started process (PID=657) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:46:06.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:46:06.582+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:46:06.582+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:46:06.996+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:46:07.018+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:46:07.018+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:46:07.034+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:46:07.034+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:46:07.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.481 seconds
+[2024-09-03T19:46:37.299+0000] {processor.py:161} INFO - Started process (PID=665) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:46:37.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:46:37.303+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:46:37.302+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:46:37.725+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:46:37.748+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:46:37.747+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:46:37.765+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:46:37.765+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:46:37.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.553 seconds
+[2024-09-03T19:47:08.014+0000] {processor.py:161} INFO - Started process (PID=673) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:47:08.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:47:08.019+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:47:08.018+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:47:08.446+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:47:08.467+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:47:08.467+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:47:08.486+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:47:08.486+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:47:08.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.499 seconds
+[2024-09-03T19:47:38.790+0000] {processor.py:161} INFO - Started process (PID=680) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:47:38.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:47:38.793+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:47:38.793+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:47:39.202+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:47:39.221+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:47:39.221+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:47:39.238+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:47:39.238+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:47:39.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.475 seconds
+[2024-09-03T19:48:09.469+0000] {processor.py:161} INFO - Started process (PID=688) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:48:09.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:48:09.472+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:48:09.472+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:48:09.875+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:48:09.896+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:48:09.895+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:48:09.912+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:48:09.912+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:48:09.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.470 seconds
+[2024-09-03T19:48:40.165+0000] {processor.py:161} INFO - Started process (PID=696) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:48:40.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:48:40.168+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:48:40.167+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:48:40.560+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:48:40.584+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:48:40.584+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:48:40.601+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:48:40.601+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:48:40.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.462 seconds
+[2024-09-03T19:49:10.820+0000] {processor.py:161} INFO - Started process (PID=704) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:49:10.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:49:10.823+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:49:10.823+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:49:11.245+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:49:11.269+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:49:11.268+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:49:11.288+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:49:11.287+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:49:11.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.497 seconds
+[2024-09-03T19:49:41.492+0000] {processor.py:161} INFO - Started process (PID=712) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:49:41.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:49:41.496+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:49:41.496+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:49:41.896+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:49:41.917+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:49:41.917+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:49:41.935+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:49:41.935+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:49:41.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.467 seconds
+[2024-09-03T19:50:12.185+0000] {processor.py:161} INFO - Started process (PID=720) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:50:12.186+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:50:12.188+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:50:12.188+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:50:12.598+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:50:12.621+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:50:12.620+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:50:12.637+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:50:12.637+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:50:12.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.475 seconds
+[2024-09-03T19:50:42.925+0000] {processor.py:161} INFO - Started process (PID=728) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:50:42.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:50:42.930+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:50:42.930+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:50:43.347+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:50:43.375+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:50:43.374+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:50:43.391+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:50:43.391+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:50:43.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.490 seconds
+[2024-09-03T19:51:13.544+0000] {processor.py:161} INFO - Started process (PID=736) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:51:13.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:51:13.547+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:51:13.547+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:51:14.034+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:51:14.058+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:51:14.057+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:51:14.075+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:51:14.075+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:51:14.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.561 seconds
+[2024-09-03T19:51:44.294+0000] {processor.py:161} INFO - Started process (PID=744) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:51:44.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:51:44.298+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:51:44.297+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:51:44.701+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:51:44.721+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:51:44.720+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:51:44.738+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:51:44.738+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:51:44.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.470 seconds
+[2024-09-03T19:52:14.946+0000] {processor.py:161} INFO - Started process (PID=752) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:52:14.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:52:14.949+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:52:14.949+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:52:15.595+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:52:15.616+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:52:15.615+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:52:15.634+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:52:15.634+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:52:15.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.714 seconds
+[2024-09-03T19:52:45.893+0000] {processor.py:161} INFO - Started process (PID=760) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:52:45.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:52:45.896+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:52:45.896+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:52:46.368+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:52:46.403+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:52:46.401+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:52:46.425+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:52:46.425+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:52:46.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.564 seconds
+[2024-09-03T19:53:16.733+0000] {processor.py:161} INFO - Started process (PID=774) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:53:16.734+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:53:16.736+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:53:16.736+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:53:17.158+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:53:17.180+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:53:17.180+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:53:17.197+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:53:17.196+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:53:17.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.486 seconds
+[2024-09-03T19:53:47.477+0000] {processor.py:161} INFO - Started process (PID=781) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:53:47.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:53:47.483+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:53:47.482+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:53:49.771+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:53:49.802+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:53:49.802+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:53:49.829+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:53:49.829+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:53:49.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 2.421 seconds
