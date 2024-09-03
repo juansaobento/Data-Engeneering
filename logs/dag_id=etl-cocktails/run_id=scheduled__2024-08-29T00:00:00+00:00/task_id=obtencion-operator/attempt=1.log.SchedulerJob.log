@@ -1,0 +1,1 @@
+[2024-09-03T19:17:49.091+0000] {scheduler_job_runner.py:769} ERROR - Executor reports task instance <TaskInstance: etl-cocktails.obtencion-operator scheduled__2024-08-29T00:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

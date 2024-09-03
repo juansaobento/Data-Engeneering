@@ -1,0 +1,477 @@
+[2024-09-03T18:59:57.717+0000] {processor.py:161} INFO - Started process (PID=56) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T18:59:57.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T18:59:57.726+0000] {logging_mixin.py:188} INFO - [2024-09-03T18:59:57.725+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:00:05.227+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:00:05.218+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_cocktails.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_cocktails.py", line 30, in <module>
+    creacion_df= PythonOperator(
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 900, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 232, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'obtencion-operator' has already been added to the DAG
+[2024-09-03T19:00:05.229+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:00:05.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 7.569 seconds
+[2024-09-03T19:00:36.273+0000] {processor.py:161} INFO - Started process (PID=63) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:00:36.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:00:36.323+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:00:36.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:00:38.984+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:00:38.964+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_cocktails.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_cocktails.py", line 30, in <module>
+    creacion_df= PythonOperator(
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 900, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 232, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'obtencion-operator' has already been added to the DAG
+[2024-09-03T19:00:38.988+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:00:39.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 2.913 seconds
+[2024-09-03T19:01:13.051+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:01:13.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:01:13.091+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:01:13.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:01:16.077+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:01:16.068+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_cocktails.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_cocktails.py", line 30, in <module>
+    creacion_df= PythonOperator(
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 900, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 232, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'obtencion-operator' has already been added to the DAG
+[2024-09-03T19:01:16.078+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:01:16.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 3.154 seconds
+[2024-09-03T19:01:48.412+0000] {processor.py:161} INFO - Started process (PID=79) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:01:48.427+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:01:48.432+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:01:48.430+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:01:49.888+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:01:49.847+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_cocktails.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_cocktails.py", line 30, in <module>
+    creacion_df= PythonOperator(
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 900, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 232, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'obtencion-operator' has already been added to the DAG
+[2024-09-03T19:01:49.893+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:01:50.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 1.800 seconds
+[2024-09-03T19:02:21.571+0000] {processor.py:161} INFO - Started process (PID=87) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:02:21.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:02:21.593+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:02:21.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:02:22.157+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:02:22.150+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_cocktails.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_cocktails.py", line 30, in <module>
+    creacion_df= PythonOperator(
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 900, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 232, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'obtencion-operator' has already been added to the DAG
+[2024-09-03T19:02:22.158+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:02:22.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.879 seconds
+[2024-09-03T19:02:52.983+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:02:52.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:02:52.987+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:02:52.986+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:02:55.767+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:02:55.756+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_cocktails.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_cocktails.py", line 30, in <module>
+    creacion_df= PythonOperator(
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 900, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 232, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'obtencion-operator' has already been added to the DAG
+[2024-09-03T19:02:55.769+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:02:55.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 2.807 seconds
+[2024-09-03T19:03:26.102+0000] {processor.py:161} INFO - Started process (PID=103) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:03:26.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:03:26.106+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:03:26.106+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:03:26.565+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:03:26.560+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_cocktails.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_cocktails.py", line 30, in <module>
+    creacion_df= PythonOperator(
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 900, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 232, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'obtencion-operator' has already been added to the DAG
+[2024-09-03T19:03:26.566+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:03:26.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.493 seconds
+[2024-09-03T19:03:57.146+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:03:57.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:03:57.151+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:03:57.150+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:03:57.659+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:03:57.651+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_cocktails.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_cocktails.py", line 30, in <module>
+    creacion_df= PythonOperator(
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 900, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 232, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'obtencion-operator' has already been added to the DAG
+[2024-09-03T19:03:57.660+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:03:57.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.537 seconds
+[2024-09-03T19:04:28.637+0000] {processor.py:161} INFO - Started process (PID=119) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:04:28.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:04:28.641+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:04:28.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:04:29.081+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:04:29.071+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_cocktails.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_cocktails.py", line 30, in <module>
+    creacion_df= PythonOperator(
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 900, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 232, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'obtencion-operator' has already been added to the DAG
+[2024-09-03T19:04:29.082+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:04:29.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.480 seconds
+[2024-09-03T19:04:59.440+0000] {processor.py:161} INFO - Started process (PID=127) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:04:59.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:04:59.443+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:04:59.443+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:04:59.758+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:04:59.750+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_cocktails.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_cocktails.py", line 30, in <module>
+    creacion_df= PythonOperator(
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 220, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 485, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 900, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 232, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'obtencion-operator' has already been added to the DAG
+[2024-09-03T19:04:59.759+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:04:59.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.349 seconds
+[2024-09-03T19:09:18.578+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:09:18.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:09:18.582+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:09:18.581+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:09:24.449+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:09:28.774+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:09:28.773+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:etl-cocktails
+[2024-09-03T19:09:28.792+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:09:28.792+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:etl-cocktails
+[2024-09-03T19:09:28.803+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:09:28.803+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:etl-cocktails
+[2024-09-03T19:09:28.805+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:09:28.804+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:09:28.823+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:09:28.822+0000] {dag.py:3118} INFO - Creating ORM DAG for etl-cocktails
+[2024-09-03T19:09:28.838+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:09:28.838+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:09:28.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 10.319 seconds
+[2024-09-03T19:09:59.641+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:09:59.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:09:59.685+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:09:59.678+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:10:13.345+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:10:20.194+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:10:20.194+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:10:21.723+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:10:21.723+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:10:21.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 22.375 seconds
+[2024-09-03T19:10:51.999+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:10:52.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:10:52.004+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:10:52.004+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:10:52.435+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:10:52.615+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:10:52.614+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:10:52.633+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:10:52.633+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:10:52.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.666 seconds
+[2024-09-03T19:11:23.446+0000] {processor.py:161} INFO - Started process (PID=87) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:11:23.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:11:23.450+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:11:23.449+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:11:23.837+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:11:23.997+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:11:23.997+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:11:24.017+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:11:24.016+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:11:24.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.598 seconds
+[2024-09-03T19:11:54.420+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:11:54.422+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:11:54.428+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:11:54.427+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:11:54.876+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:11:54.901+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:11:54.901+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:11:54.918+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:11:54.918+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:11:54.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.524 seconds
+[2024-09-03T19:12:25.395+0000] {processor.py:161} INFO - Started process (PID=104) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:12:25.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:12:25.400+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:12:25.399+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:12:25.866+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:12:25.888+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:12:25.887+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:12:25.902+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:12:25.902+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:12:25.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.531 seconds
+[2024-09-03T19:12:56.267+0000] {processor.py:161} INFO - Started process (PID=112) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:12:56.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:12:56.270+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:12:56.270+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:12:56.710+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:12:56.744+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:12:56.743+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:12:56.769+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:12:56.769+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:12:56.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.526 seconds
+[2024-09-03T19:13:27.086+0000] {processor.py:161} INFO - Started process (PID=120) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:13:27.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:13:27.090+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:13:27.090+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:13:27.436+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:13:27.464+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:13:27.463+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:13:27.635+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:13:27.635+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:13:27.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.575 seconds
+[2024-09-03T19:14:00.330+0000] {processor.py:161} INFO - Started process (PID=128) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:14:00.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:14:00.620+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:14:00.618+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:14:08.619+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:14:14.860+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:14:14.859+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:14:14.980+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:14:14.980+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:14:15.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 16.387 seconds
+[2024-09-03T19:14:45.935+0000] {processor.py:161} INFO - Started process (PID=136) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:14:45.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:14:45.948+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:14:45.947+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:14:46.671+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:14:46.700+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:14:46.700+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:14:46.737+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:14:46.737+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:14:46.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.845 seconds
+[2024-09-03T19:15:17.410+0000] {processor.py:161} INFO - Started process (PID=144) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:15:17.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:15:17.414+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:15:17.413+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:15:17.954+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:15:18.059+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:15:18.058+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:15:18.326+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:15:18.326+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:15:18.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 1.210 seconds
+[2024-09-03T19:15:49.175+0000] {processor.py:161} INFO - Started process (PID=152) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:15:49.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:15:49.180+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:15:49.180+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:15:49.645+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:15:49.669+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:15:49.668+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:15:49.688+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:15:49.688+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:15:49.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.542 seconds
+[2024-09-03T19:16:20.018+0000] {processor.py:161} INFO - Started process (PID=160) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:16:20.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:16:20.026+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:16:20.026+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:16:20.606+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:16:20.636+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:16:20.635+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:16:20.665+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:16:20.664+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-25 00:00:00+00:00, run_after=2024-08-26 00:00:00+00:00
+[2024-09-03T19:16:20.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.677 seconds
+[2024-09-03T19:16:51.009+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:16:51.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:16:51.019+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:16:51.019+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:16:53.190+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:16:53.255+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:16:53.253+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:16:53.310+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:16:53.309+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-08-27 00:00:00+00:00, run_after=2024-08-28 00:00:00+00:00
+[2024-09-03T19:16:53.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 2.337 seconds
+[2024-09-03T19:17:24.091+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:17:24.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:17:24.294+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:17:24.206+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:17:45.949+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:17:50.905+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:17:50.905+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:17:50.977+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:17:50.977+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:17:51.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 27.119 seconds
+[2024-09-03T19:18:22.244+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:18:22.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:18:22.350+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:18:22.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:18:59.928+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:19:00.330+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:19:00.329+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:19:00.686+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:19:00.683+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:19:01.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 39.057 seconds
+[2024-09-03T19:19:35.939+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:19:35.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:19:35.975+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:19:35.967+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:19:54.464+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:19:54.548+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:19:54.548+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:19:54.943+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:19:54.942+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:19:55.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 19.884 seconds
+[2024-09-03T19:20:26.785+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:20:26.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:20:26.841+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:20:26.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:20:31.829+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:20:31.866+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:20:31.866+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:20:31.903+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:20:31.902+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:20:31.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 5.252 seconds
+[2024-09-03T19:21:02.431+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:21:02.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:21:02.434+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:21:02.434+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:21:02.930+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:21:02.953+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:21:02.953+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:21:02.975+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:21:02.974+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:21:03.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.583 seconds
+[2024-09-03T19:21:33.678+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:21:33.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:21:33.682+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:21:33.682+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:21:34.212+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:21:34.237+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:21:34.236+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:21:34.256+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:21:34.255+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:21:34.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.605 seconds
+[2024-09-03T19:22:04.698+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:22:04.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:22:04.703+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:22:04.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:22:05.278+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:22:05.310+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:22:05.309+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:22:05.342+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:22:05.340+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:22:05.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.681 seconds
+[2024-09-03T19:22:35.670+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:22:35.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:22:35.680+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:22:35.676+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:22:36.054+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:22:36.721+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:22:36.720+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:22:36.773+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:22:36.772+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:22:36.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 1.151 seconds
+[2024-09-03T19:23:07.492+0000] {processor.py:161} INFO - Started process (PID=295) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:23:07.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:23:07.510+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:23:07.508+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:23:12.507+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:23:12.704+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:23:12.703+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:23:12.919+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:23:12.919+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:23:12.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 5.547 seconds
+[2024-09-03T19:23:44.032+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:23:44.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:23:44.100+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:23:44.092+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:23:47.577+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:23:47.646+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:23:47.644+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:23:47.681+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:23:47.681+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:23:47.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 3.814 seconds
+[2024-09-03T19:24:18.776+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:24:18.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:24:18.783+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:24:18.782+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:24:19.331+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:24:19.356+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:24:19.356+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:24:19.374+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:24:19.374+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:24:19.404+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.633 seconds
+[2024-09-03T19:24:50.074+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:24:50.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:24:50.092+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:24:50.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:24:50.721+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:24:50.748+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:24:50.748+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:24:50.769+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:24:50.769+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:24:50.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.917 seconds
+[2024-09-03T19:25:21.473+0000] {processor.py:161} INFO - Started process (PID=334) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:25:21.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:25:21.479+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:25:21.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:25:22.049+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:25:22.072+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:25:22.072+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:25:22.092+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:25:22.092+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:25:22.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.662 seconds
+[2024-09-03T19:25:52.405+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:25:52.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:25:52.409+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:25:52.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:25:52.741+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:25:52.942+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:25:52.942+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:25:52.966+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:25:52.966+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:25:53.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.601 seconds
+[2024-09-03T19:26:23.890+0000] {processor.py:161} INFO - Started process (PID=350) to work on /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:26:23.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_cocktails.py for tasks to queue
+[2024-09-03T19:26:23.897+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:26:23.896+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:26:24.464+0000] {processor.py:840} INFO - DAG(s) 'etl-cocktails' retrieved from /opt/airflow/dags/ETL_cocktails.py
+[2024-09-03T19:26:24.489+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:26:24.488+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-03T19:26:24.508+0000] {logging_mixin.py:188} INFO - [2024-09-03T19:26:24.508+0000] {dag.py:3954} INFO - Setting next_dagrun for etl-cocktails to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-03T19:26:24.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_cocktails.py took 0.704 seconds

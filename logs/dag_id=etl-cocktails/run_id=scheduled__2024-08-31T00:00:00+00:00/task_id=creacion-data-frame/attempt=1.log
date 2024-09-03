@@ -1,0 +1,22 @@
+[2024-09-03T19:18:53.978+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-03T19:19:29.681+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl-cocktails.creacion-data-frame scheduled__2024-08-31T00:00:00+00:00 [queued]>
+[2024-09-03T19:19:29.724+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl-cocktails.creacion-data-frame scheduled__2024-08-31T00:00:00+00:00 [queued]>
+[2024-09-03T19:19:29.726+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2024-09-03T19:19:29.772+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): creacion-data-frame> on 2024-08-31 00:00:00+00:00
+[2024-09-03T19:19:29.805+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=193) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-09-03T19:19:29.814+0000] {standard_task_runner.py:63} INFO - Started process 210 to run task
+[2024-09-03T19:19:29.816+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'etl-cocktails', 'creacion-data-frame', 'scheduled__2024-08-31T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/ETL_cocktails.py', '--cfg-path', '/tmp/tmpd8hji6j4']
+[2024-09-03T19:19:29.825+0000] {standard_task_runner.py:91} INFO - Job 11: Subtask creacion-data-frame
+[2024-09-03T19:19:29.968+0000] {task_command.py:426} INFO - Running <TaskInstance: etl-cocktails.creacion-data-frame scheduled__2024-08-31T00:00:00+00:00 [running]> on host 696620f486cd
+[2024-09-03T19:19:30.154+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='juansaobento' AIRFLOW_CTX_DAG_ID='etl-cocktails' AIRFLOW_CTX_TASK_ID='creacion-data-frame' AIRFLOW_CTX_EXECUTION_DATE='2024-08-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-31T00:00:00+00:00'
+[2024-09-03T19:19:30.157+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-03T19:19:31.265+0000] {python.py:237} INFO - Done. Returned value was:   idDrink  ...                                       Ingredientes
+0   17079  ...  {"Kahlua": "2 1/2 oz ", "Baileys irish cream":...
+
+[1 rows x 7 columns]
+[2024-09-03T19:19:31.287+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-09-03T19:19:31.486+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=etl-cocktails, task_id=creacion-data-frame, run_id=scheduled__2024-08-31T00:00:00+00:00, execution_date=20240831T000000, start_date=20240903T191929, end_date=20240903T191931
+[2024-09-03T19:19:31.716+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-09-03T19:19:31.783+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
